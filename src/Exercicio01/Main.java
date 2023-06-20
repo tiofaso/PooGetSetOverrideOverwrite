@@ -11,7 +11,7 @@ public class Main {
         renault.freiaCarro(5);
         System.out.printf("\n-------------\n\n");
 
-        Fiat fiat = new Fiat("Doblò Adventure", 2012, 46449,"verde",6);
+        Fiat fiat = new Fiat("Doblò Adventure", 2012, 46449, "verde", 6);
 
         System.out.printf("> FIAT\n");
         fiat.mostraCarro();
@@ -20,7 +20,7 @@ public class Main {
         fiat.freiaCarro(6);
         System.out.printf("\n-------------\n\n");
 
-        Hyundai hyundai = new Hyundai("Creta", 2018, 87024,"prata",4);
+        Hyundai hyundai = new Hyundai("Creta", 2018, 87024, "prata", 4);
 
         System.out.printf("> HYUNDAI\n");
         hyundai.mostraCarro();

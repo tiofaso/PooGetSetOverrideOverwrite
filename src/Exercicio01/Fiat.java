@@ -14,7 +14,6 @@ public class Fiat extends Carros {
         System.out.printf("\n\nIniciando motort... minha velocidade está em " + velocidade + " km/h");
     }
 
-
     @Override
     public void aceleraMotor(double velocidade) {
         System.out.printf("\nAcelerando... minha velocidade está em " + velocidade + "km/h");
